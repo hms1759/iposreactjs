@@ -1,0 +1,36 @@
+.navbar{
+    background-color:rgb(176, 81, 227) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 15px;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-weight: 600;
+    /* border: 1px solid white; */
+}
+.links a:hover{
+    
+    background-color:rgb(125, 51, 165) ;
+    border: 1px solid white;
+}
+.links-right{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.links-left{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}

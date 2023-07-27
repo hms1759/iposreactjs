@@ -1,0 +1,103 @@
+.onbaord_nav{
+    background:white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 30px;
+    width: 100%;
+    box-shadow: 2px 2px 2px blueviolet;
+    margin-bottom: 60px;
+
+}
+.onbaord_nav_btn{
+    padding: 10px 30px;
+    border: solid black 1px;
+    text-decoration:none;
+
+}
+.form{
+    width: 100%;
+    padding: 20px;
+}
+.form_body{
+    padding-top: 7%;
+}
+.form_control{
+  margin: 10px 0px;
+}
+.input{
+    height: 50px;
+}
+.onboarding_body{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.onboarding_content
+{
+    padding-top: 4%;
+    width: 50%;
+}
+.progress_number{
+    font-weight: 600;
+    font-size: 20px;
+    color: blueviolet;
+}
+.progress_bar{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.progress_bar_item{
+    background-color: blueviolet;
+    width: 22%;
+    border: 1px 1px black;
+    border-radius: 3px;
+}
+.progress_bar_empty{
+    width: 22%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.bttn{
+    width: 100%;
+    padding: 1%;
+    color: white;
+    font-weight: 4%;
+    border-radius:0px 0px 20px 20px;
+    background-color: blueviolet;
+}
+.double_form{
+    display: flex;
+    justify-content: space-between;
+}
+.top_smg{
+    width: 100%;
+    height: 7%;
+    margin-top: 3%;
+    padding: 0px ;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+.form_title{
+    font-weight: 800;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    line-height: 40px;
+}
+.error_text{
+    color: "red";
+    font-size: "12px";
+     display:"flex";
+     justify-content:"left"
+}
+.isPagehide{
+    display: none;
+}
