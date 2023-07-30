@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import Validation from './Validation';
+import Validation from './Validations/Validation';
 
 export default function PersonalInfo(props) {
 	const [personalinfo, setPersonalInfo] = useState({
@@ -14,7 +14,8 @@ export default function PersonalInfo(props) {
 	const [errors, setErrors] = useState({})
 	// States for registration
 	function handleInput(event){
-		const newObj = {...personalinfo,[event.target.name]: event.target.value }
+		const newObj = {...personalinfo,[event.target.name]: event.target.value };
+		
 		setPersonalInfo(newObj);
 	} 
 
@@ -28,9 +29,8 @@ export default function PersonalInfo(props) {
 		}
 		else {
 			props.onSubmit(
-				{
-					obj : personalinfo
-				}
+				 personalinfo
+			
 			);
 			setErrors({});
 		

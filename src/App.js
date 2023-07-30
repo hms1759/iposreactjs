@@ -6,7 +6,8 @@ import Contact from './components/Landingpages/Contact';
 import SignUp_Index  from './components/Onboarding/SignUp_Index'
 import './style.css';
 import BusinessInfo from './components/Onboarding/BusinessInfo';
-import Password from './components/Onboarding/Password';
+import OtpValidationPage from './components/Onboarding/OtpValidationPage';
+import SignUpPage from './components/Onboarding/SignUpPage';
 
 function App() {
   return <div className="App">
@@ -14,7 +15,8 @@ function App() {
       <Routes> 
        <Route path= "/signup" element={<SignUp_Index />}/>
        <Route path= "/businessInfo" element={<BusinessInfo />}/>
-       <Route path= "/password" element={<Password />}/>
+       <Route path= "/password" element={<SignUpPage />}/>
+       <Route path= "/otp" element={<OtpValidationPage />}/>
        <Route path= "/" element={<HomePage />} />
       <Route path= "/feature" element={<Feature />}/>
       <Route path= "/contact" element={<Contact />}/>
