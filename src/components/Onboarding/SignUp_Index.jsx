@@ -98,6 +98,7 @@ export default function SignUp_Index() {
           SuccessMessage(response.data.description);
           numberOff(2);
         } else {
+          
           ErrorMessage(response.data.description);
         }
       })
